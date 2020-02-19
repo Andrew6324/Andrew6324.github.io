@@ -1,0 +1,49 @@
+#header{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:2px;
+    font-size: x-large;
+}
+#header2{
+    background-color: #eeeeee;
+    color: black;
+    height: fit-content;
+    text-align: center;
+    padding: 3px;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+
+#section{
+    width:100%;
+    height: fit-content;
+    padding:10px; 
+    text-align: center;
+    font-size: medium;
+    font-size: 13px;
+    font-family: monospace;
+}
+
+
+#footer{
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    font-size: medium;
+}
+#image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100;
+    width: 200;
+
+}
+
+h2{
+    font-family: monospace;
+}

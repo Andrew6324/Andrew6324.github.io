@@ -1,0 +1,113 @@
+.nav{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background:aquamarine;
+  
+  z-index: 10;
+}
+.nav_list{
+  display: inline-flex;
+  margin-right:0;
+}
+
+.nav_list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 1.5rem;
+}
+.nav_list a:hover{
+  background-color:white;
+  color: aquamarine;
+}
+
+#ball {
+  width: 30px;
+  height: 30px;
+  margin: 50px auto;
+  position: fixed;
+  left: 100%;
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ffcccc
+  );
+  animation-name:fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  50% {
+    left: 50%;
+    opacity:0.1;
+  }
+}
+h1 {
+  font-family: monospace;
+  font-weight: 700;
+  text-align: center;
+
+  font-size: 6rem;
+  color:aquamarine;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 4.2rem;
+  color: aquamarine;
+}
+p{
+  text-align: center;
+}
+ul {
+  list-style:none ;
+  color: white;
+  text-align: center;
+  font-style: inherit;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+.welcome_sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  background-color: #000;
+}
+
+
+
+div{
+  text-align: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 250px;
+  margin:  50 auto;
+  background: repeating-linear-gradient(
+    45deg,
+    white 0px,
+    white 40px,
+    aquamarine 40px,
+    aquamarine  80px
+  );
+}
+
+img{
+  align-items: center;
+}
