@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Kalam|Permanent+Marker|Trade+Winds&display=swap');
+
+body {
+  background-image: url("https://media3.giphy.com/media/26AHQYzFXI6T8U9z2/giphy.gif?cid=790b761169a083874dc617ab4d3e440e3ee77ded4ea09b40&rid=giphy.gif");
+  background-color: white; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+img {
+  width:40wv;
+  display: block;
+}
+
+img:hover{
+  display:none;
+}
+#theFlex {
+  background-color: yellow; 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+
+.topnav {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: white;
+text-align: center;
+padding: 15px 18px;
+text-decoration: none;
+font-size: 18px;
+font-family:  'Advent Pro','Kalam','Trade Winds','Permanent Marker',monospace;
+font-weight: bold;
+text-justify: auto;
+}
+
+/* Change the color of links on hover */
+a:hover, a:active {
+background-color: transparent;
+color: rgb(209, 253, 253);
+
+}
+
+/* Add a color to the active/current link */
+
+p {
+  font-size:45px ;
+  color: aliceblue;
+  font-family: 'Permanent Marker', 'Trade Winds',monospace;
+  text-align: center;
+  padding: left 200px;
+  justify-content: center;
+}
+
