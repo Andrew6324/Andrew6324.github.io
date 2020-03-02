@@ -46,7 +46,7 @@ img:hover{
     font-size: large;
     font-weight: bold;
     font-family: 'Trade Winds',monospace;
-    background-repeat: no-repeat;
+
 }    
 .right{
     background-image: url(https://media3.giphy.com/media/MXQnyEQwBJ6eTj90L5/giphy.webp?cid=790b761171bac0df1c38d9ca98dbdeb46035411d2ffb6fed&rid=giphy.webp);
@@ -58,7 +58,7 @@ img:hover{
     font-size: large;
     font-weight: bold;
     font-family: 'Trade Winds',monospace;
-    background-repeat: no-repeat;
+
 }
 .middle{
     margin: 3px;
@@ -70,7 +70,7 @@ img:hover{
     font-size: large;
     font-weight: bold;
     font-family: 'Permanent Marker', 'Trade Winds',monospace;
-    background-repeat: no-repeat;
+
     background-image: url(https://media0.giphy.com/media/vitWWq2hZaPT2/200.webp?cid=790b761123523f05864033ac496bae8b2103f24eb4eea145&rid=200.webp);
 }
 
