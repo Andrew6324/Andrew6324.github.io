@@ -57,7 +57,13 @@ img:hover{
     justify-content: center;
     font-size: large;
     font-weight: bold;
+<<<<<<< HEAD
     font-family: 'Trade Winds',monospace;}
+=======
+    font-family: 'Trade Winds',monospace;
+
+}
+>>>>>>> d0caf1ff9d7f865300f7537d623fd35ce3261a9f
 .middle{
     margin: 3px;
     grid-row:1;
