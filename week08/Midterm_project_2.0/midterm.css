@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Kalam|Permanent+Marker|Trade+Winds&display=swap');
+body{
+    display: grid;
+    grid-template-rows: 200px 2800px 10%;
+}
+h2{
+    text-align: center;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: white;
+    width:100%;
+
+}
+.logo{
+    align-items: stretch;
+    justify-content:right;
+    width: 180px;
+    height: 180px;
+    float:center;
+    width: 50%;
+    display: flex;
+}
+.topnav {
+    list-style-type:none;
+    margin:30px;
+    padding:20px;
+    overflow:hidden;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+/* Reference to https://www.bilibili.com/video/av60644364/*/
+.topnav li a{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin:  0 25px;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding: 5px 10px;
+    font-family:  'Advent Pro','Kalam','Trade Winds','Permanent Marker',monospace;
+    font-weight: bold;
+
+}
+.topnav li a:before{
+    content: ' ';
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    width:12px;
+    height: 12px;
+    border: 3px solid aqua;
+    border-width: 0 0 3px 3px;
+    transition: 0.5s;
+    opacity:0;
+}
+.topnav li a:hover{
+    color: white;
+    background: black;
+    transition: 0.5s;
+}
+.topnav li a:hover:before{
+    bottom: -8px;
+    left:-8;
+    opacity: 1;
+}
+.topnav li a:after{
+    content: ' ';
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 12px;
+    height: 12px;
+    border: 3px solid aqua;
+    border-width: 3px 3px 0 0 ;
+    transition: 0.5s;
+    opacity: 0;
+}
+.topnav li a:hover:after{
+    top: -8px;
+    right: -8px;
+    opacity:1;
+}
+/*.topnav a {
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 15px 70px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family:  'Advent Pro','Kalam','Trade Winds','Permanent Marker',monospace;
+    font-weight: bold;
+    justify-content: space-between;
+    display: flex;
+}*/
+
+  
+ 
+a:hover, a:active {
+    background-color: transparent;
+    color: lightslategrey;
+}
+
+.middle{
+    display: grid;
+    grid-template-rows: 0.1fr 3fr ;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+#middle_a{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.pic_sec{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.pic_upper{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px;
+    height: 600px;
+    margin: 0px;
+}
+.pic_lower{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+    padding: 0px;
+    margin-top: -20px;
+
+}
+.pic_upper_upper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.pic_upper_lower{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.pic_lower_left{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.pic_lower_right{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+img{
+    width: 100%;
+
+}
+/*img:hover{
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+    zoom: 1;
+    transform: scale(1.2);
+
+.pic:hover{
+    transition: ease-in-out;
+    transition-duration: 0.5s ;
+    zoom: 1;
+    transform: scale(1.2);
+}*/
+.pic1{
+    padding: 15px;
+}
+.pic2{
+    padding: 15px;
+} 
+.pic3{
+    padding: 15px;
+}
+.pic4{
+    padding: 15px;
+}
+.pic5{
+    padding: 15px;
+}
+.pic6{
+    padding: 15px;
+}
+.pic7{
+    padding: 15px;
+}
+
+/* Professor Leopold's code on week07 about image hovering*/
+.container {
+    position: relative;
+    width: 95%;
+   
+}
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Avenir', sans-serif;
+    letter-spacing: .075em;
+   
+}
+  
+.theImage {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+  
+.text {
+    white-space: nowrap;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family:  'Advent Pro','Kalam','Trade Winds','Permanent Marker',monospace;
+}
+.overlayer{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color:whitesmoke;
+    opacity: 85%;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: 0.5s ease;
+    
+}
+  
+  
+.container:hover .overlayer {
+    top: 0;
+    height: 100%;
+}
+  
+  
+
+.coverpic{
+    background-image: url(https://media.giphy.com/media/rHjtiKPkezza/giphy.gifhttps://media.giphy.com/media/wKUOJPGLSQ6xa/giphy.gifhttps://media0.giphy.com/media/48PbiL2u5ZUU6HZf55/giphy.gif?cid=790b76118ec84ee45d5bd3d2684ece87cd0d761293455482&rid=giphy.gif);
+    background-repeat: no-repeat; 
+
+}
+/*W3chool
+https://www.w3schools.com/howto/howto_css_contact_section.asp
+*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+  /* Style the container/contact section */
+.container {
+    margin-bottom: 0px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px;
+    border: 10px;
+    font-family:  'Advent Pro','Kalam','Trade Winds','Permanent Marker',monospace;
+}
+  
+  /* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 30px;
+    height: 200px;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+#contact{
+    text-align: center;
+}
+.logo_contact{
+    padding: 10px;
+    width: 130px;
+    height: 130px; 
+}
+.wholepage{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+}
+.contact_top{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+}
+#contact_h2{
+    font-size: 40px;
+}
+
+footer{
+    display: grid;
+    background-color: white;
+    grid-template-rows: 1fr 10fr;
+}
+
+#video{
+    width: 75%;
+    height: 600px;
+    display:block;
+    margin: auto;
+
+}
+iframe{
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 600px;
+}
