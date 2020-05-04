@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title> Midterm </title>
+        <link rel="shortcut icon" type="image/jpg" href="plum.jpg"/>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <link rel="stylesheet" type='text/css' href="homepage.css"/>
+        <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+        <script src="homepage.js"></script>
+    </head>
+
+    <body>
+
+        <div class="top">
+             <!-- Use any element to open/show the overlay navigation menu -->
+          
+                <span onclick="openNav()" class="open_menu">
+                    <i class="fas fa-bars fa-3x" ></i>
+                </span>
+                <div class="top_text">
+                    <div class="top_text_left">
+                        <br>Welcome to Zuhao's</br>
+                        <br>Space.</br>
+                    </div>
+                    <div class="top_text_right">
+                        <p id="demo"></p>
+                    </div>
+                </div>
+                
+                <div class="music_player">
+                    <iframe src="https://open.spotify.com/embed/playlist/5d416H3zdA1vW9BzRHeyjw" width="350" height="430" frameborder="0" allowtransparency="true" allow="encrypted-media" style="opacity: 70%; "></iframe>
+                </div>
+       
+            
+           <!-- The overlay -->
+            <div id="myNav" class="overlay">
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <a href="homepage.html"><i class="fas fa-home"></i>&nbsp;&nbsp;&nbsp;Home</a>
+                    <a href="#"><i class="far fa-file"></i>&nbsp;&nbsp;&nbsp;Resume</a>
+                    <a href="#"><i class="fab fa-artstation"></i>&nbsp;&nbsp;&nbsp;Projects</a>
+                    <a href="#"><i class="fas fa-sms"></i>&nbsp;&nbsp;&nbsp;Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="middle_a">
+            <div class="middle_a_text"> <i class="fas fa-child"></i>&nbsp;&nbsp;Who is that?</div>
+            <div class="flip-card" class="middle_a_pic">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12ecb7ae-7059-48df-a4f8-2e3fb7858606/d47rmjf-de88a574-49c8-4dcf-9df4-7e11722e8bec.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEyZWNiN2FlLTcwNTktNDhkZi1hNGY4LTJlM2ZiNzg1ODYwNlwvZDQ3cm1qZi1kZTg4YTU3NC00OWM4LTRkY2YtOWRmNC03ZTExNzIyZThiZWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.loswJAzDdppbY9aZ-eQs3DKvAdY7W91eosZhapx7gFU">
+                    </div>
+                <div class="flip-card-back">
+                    <h1>Zuhao </h1>
+                    <p> NYU junior</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="middle_b">
+            <!--<button type="button" class="collapsible">Open Collapsible</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>-->
+            <div class="parallax"></div>
+            <div style="height:1000px;background-color:blue;font-size:36px">
+            </div>
+            
+        </div>
+
+        <div class="middle_c">
+            <div id="myDIV" class="header">
+                <h2><i class="far fa-comment-dots"></i> &nbsp;Please comment below</h2>
+                <input type="text" id="myInput" placeholder="Please don't use F*** words">
+                <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+              
+            <ul id="myUL">
+                <li>I like Zuhao!</li>
+                <li class="checked">I don't like him at all!</li>
+                <li>123</li>
+                <li>abc</li>
+            </ul>
+
+            
+        </div>
+        <div class="bottom">
+            <p>Click on the w3schools logo to download the image:<p>
+                <a href="/images/myw3schoolsimage.jpg" download>
+                    <img src="/images/myw3schoolsimage.jpg" alt="W3Schools" width="104" height="142">
+                </a>
+        </div>
+
+       
+    </body>
+</html>
