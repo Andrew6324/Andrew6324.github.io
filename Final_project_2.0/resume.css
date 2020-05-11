@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    font-size: 50px;
+}
+.resume_img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.download {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.download:hover {
+    color: limegreen;
+}
